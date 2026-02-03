@@ -1,0 +1,20 @@
+Question:Find the number is even or odd
+Example:Input:2 output:even
+Step1:Understand the problem
+what is given?number2 
+what is required? check the number is divided by zero gives remainder zero
+step2:Manual testing
+2%2=0-->even or 9%2=1-->odd
+step3:Break into small steps
+1.Take i/p
+2.check the i/p is divide by 2 gives zero it print even
+3.check the i/p is divided by 2 gives 1 it print odd
+step4:Convert this into logic
+number=2
+if number%2==0:
+   print("even")
+else:
+  prinnt("odd")
+step 5:predict the output
+if 2%2==0: even
+if 9%2==1: odd
