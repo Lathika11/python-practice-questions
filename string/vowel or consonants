@@ -1,0 +1,20 @@
+Questions:check whether a character is vowel or consonant
+step1:understand the problem
+what is given? it is character=a 
+what is the output? vowel
+what is required? condition
+step2:manual check
+a-->aeiou-->vowel
+c-->aeiou-->consonant
+step3:write a logic in plain english
+  1.give a variable name vowel and store aeiou value
+  2.it check if the input in vowel
+    print "vowel"
+  3.otherwise, print"consonant"
+step4:write a code
+    def vowel(ch):
+       vowels='aeiou'
+       if ch in vowels:
+         print("vowels")
+       else:
+         print("consonants")
