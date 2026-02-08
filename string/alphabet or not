@@ -1,0 +1,18 @@
+question:check whether a character is a alphabet or not
+step1:understand the problem
+ what is given?-->ch=a
+ what is the output?-->alphabet
+ what is required?-->condition
+step2:manual check
+  ch=a-->alphabet
+  ch=2-->not
+step3:write a logic into plain english
+  1.if check input is alphabet
+  2.it is true print alphabet
+  3.it is false print not
+step4:write a code
+  def alph(ch):
+     if 65<=ch=>90 or 97<=ch<=122:
+        print("alphabet")
+     else:
+        print("not")
