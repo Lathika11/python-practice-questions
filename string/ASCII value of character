@@ -1,0 +1,14 @@
+Question:Find the Ascii value of an character
+step1:understand the problem
+  1.what is given?-->ch=A
+  2.what is output?-->65
+step2:Manual testing
+  A-->65...
+step3:write a logic into plain english
+ 1.first,get a input and check the ascii value
+ 2.second,to change in character to ascii value
+ 3.using ord() fuction to convert to ascii value
+step4:write a code
+ch=input("Enter the character")
+Ascii_value=ord(ch)
+print("ASCII value of a character",Ascii_value)
