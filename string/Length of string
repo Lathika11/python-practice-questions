@@ -1,0 +1,18 @@
+Question:Find the length of the string without using built-in function
+step1:understand the problem
+  what is given?-->ch='github'
+  what is output?-->6
+step2:manual testing
+Github-->G-1,i-2,t-3,h-4,u-5,b-6
+step3:write a logic into plain english
+ 1.get input from user
+ 2.initialize count=0
+ 3.traverse each element that is using for loop
+ 4.each element to add the count value
+ 5.end of the loop ,to return the count
+step4:write a code
+   string=input("enter a string")
+   count=0
+   for i in string:
+       count+=1
+   print(count)
